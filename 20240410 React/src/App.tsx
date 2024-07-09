@@ -5,13 +5,15 @@ import { StateDemo } from './Components/StateDemo';
 import { ContextDemo } from './Components/ContextDemo';
 import LifecycleDemo from './Components/LifeCycleDemo';
 import { HocDemo } from './Components/HocDemo';
+import { LifeCycleTest } from './Components/LifeCycleTest';
 
 function App() {
 
   return <>
     {/* <StateDemo /> */}
-    <ContextDemo/>
+    {/* <ContextDemo/> */}
     {/* <LifecycleDemo/> */}
+    <LifeCycleTest/>
     {/* <HocDemo/> */}
   </>;
 }
