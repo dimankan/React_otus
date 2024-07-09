@@ -16,7 +16,7 @@ export function ButtonFunction(props: ButtonFunctionProps) {
             console.log(response.data.fact);
             props.onResponse(response.data.fact);
         }
-        catch {
+        catch{
             props.onResponse("Ошибка при выполнении запроса")
         }
     }
